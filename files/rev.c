@@ -39,8 +39,7 @@ int main( int argc,char *argv[] )
                 
                		lseek(src, (off_t) i, SEEK_SET);
                		read(src, &buf, 1);
-
- 			write(dest, &buf, 1);
+                    write(dest, &buf, 1);
  		}
                 
                 
